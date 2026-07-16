@@ -59,7 +59,7 @@ export function limesToCut(wedgesNeeded, limes) {
          return cut;
       }
    }
-   return cut
+   return cut;
 }
 
 /**
