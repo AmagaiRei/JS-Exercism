@@ -23,6 +23,7 @@ export function onSuccess() {
 /**
  * @return void
  */
+
 export function onError() {
    notify({ message: 'ERROR' });
 }
@@ -32,10 +33,10 @@ export function onError() {
  * @param {FruitPickerErrorCallback} onErrorCallback
  * @return void
  */
+
 export function orderFromGrocer(query, onSuccessCallback, onErrorCallback) {
    order(query, onSuccessCallback, onErrorCallback);
 }
-
 /**
  * @param {string} variety
  * @param {number} quantity
